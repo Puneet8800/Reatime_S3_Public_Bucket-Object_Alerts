@@ -1,0 +1,20 @@
+{
+  "detail-type": [
+    "AWS API Call via CloudTrail"
+  ],
+  "source": [
+    "aws.s3"
+  ],
+  "detail": {
+    "eventSource": [
+      "s3.amazonaws.com"
+    ],
+    "eventName": [
+      "CreateBucket",
+      "PutBucketAcl",
+      "PutBucketPolicy",
+      "PutObject",
+      "PutObjectAcl"
+    ]
+  }
+}
